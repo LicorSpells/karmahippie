@@ -1,0 +1,132 @@
+
+/* Estilos para el body */
+body {
+    background-image: url('fondo.png');
+    margin: 0%;
+}
+/* Estilos para la navbar */
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%; 
+    height: 50px;
+    justify-content: center;
+    margin: 10px auto;
+}
+.a-navbar {
+    background-color: rgb(255, 255, 255); 
+    display: inline-block;
+    width: 130px; 
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+    
+}
+.a-navbar:hover {
+    color:red;
+}
+/* Estilos para el section principal */
+#sec-01 {background-color: rgb(255, 255, 255); 
+    display: flex;
+    float: left;
+    width: 60%; 
+    height: 750px;
+    text-align: center;
+}
+.linea-rosa {background-color: rgba(255, 255, 255, 0);
+    width: 95%; 
+    height: 95%;
+    border: 5px solid rgb(0, 0, 0);
+    margin: auto;
+}
+h1 {font-size: 28px; 
+    color:rgb(0, 0, 0); 
+    text-decoration: underline;
+    margin: 10px;
+}
+.hmeditando {display: flex;
+float: left;
+margin: 0px 5px;
+border: 5px solid rgb(0, 0, 0);
+width: 300px;
+height: 350px;}
+
+#sec-01 p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.ali-dp {
+    text-align: right;
+}
+/* Estilos para el section secundario */
+#sec-02 {background-color: rgb(255, 255, 255); 
+    display: flex;
+    float: left;
+    width: 40%; 
+    height: 750px;
+    text-align: center;
+}
+.dsec-02 {background-color: rgba(255, 255, 255, 0.541);
+    width: 95%; 
+    height: 95%;
+    border: 5px solid rgb(0, 0, 0);
+    margin: auto;
+}
+.dsec-02 h2 {
+    font-size: 30px;
+    text-transform:uppercase;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+/* Estilo para el deslizador de fotos */
+.slideshow {background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width:90%;
+    height:200px;
+    margin-top: 5px; 
+    margin-left: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+.slideshow img {
+    width: 100%;
+    height: 100%;
+} 
+/* Estilos para los compañeros */
+.pgm {display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50px;
+    align-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 5px auto;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: inset 0 0 0 5px black;
+    text-decoration: none;
+}
+.pgm p {
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px;
+}
+.pgm p:hover {
+    color: rgb(255, 0, 0);
+}
+/* Estilos para el footer */
+footer {
+        background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%; 
+    height: 50px;
+    justify-content: center;
+    margin: 10px auto;
+}
